@@ -1,4 +1,5 @@
-var csrfTokenSelector = document.querySelector('meta[name="csrf-token"]');
+// Unable to access document on node.js
+//var csrfTokenSelector = document.querySelector('meta[name="csrf-token"]');
 
 var toURLEncoded = function (element, key, list) {
   var list = list || [];
